@@ -66,7 +66,7 @@ f) Refatorar o **_a)_** usando _switch_ para dizer se "fulana" vai a praia ou n�
 
 g) Dada a tabela abaixo, o algoritmo deve receber peso e idade de uma pessoa e dizer de qual grupo ela faz parte.
 - Use _switch cases_ aninhados (i.é escolha-caso encadeados)
-- [![Tabela-1](./tabela1.png)]
+- ![Tabela-1](./tabela-1.png)
 
 h) Dados dois números inteiros como input, o programa calcula o maior menos o menor e devolve no output.
 
