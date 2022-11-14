@@ -172,8 +172,12 @@ ordenados usando o método de Bubble sorting.
    
 #### Extras
 
-a) Fazer um jogo de [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)
-b) Fazer um _Tic Tac Toe_ (jogo da velha)
-c) Dada uma matriz, mostra ela atraves de uma interface gráfica e calcula sua determinante.
-d) Gerador de números de loteria (quina, megasena e lotofacil).
-e) Jogo simples de pedra, papel e tesoura com três tentativas.
+a) Fazer um jogo de [FizzBuzz](https://en.wikipedia.org/wiki/Fizz_buzz)   
+
+b) Fazer um _Tic Tac Toe_ (jogo da velha)   
+
+c) Dada uma matriz, mostra ela atraves de uma interface gráfica e calcula sua determinante.      
+   
+d) Gerador de números de loteria (quina, megasena e lotofacil).    
+   
+e) Jogo simples de pedra, papel e tesoura com três tentativas.   
