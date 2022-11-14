@@ -24,10 +24,12 @@
    
 ## Exercícios   
 
-Estão separados conforme a complexidade de conhecimenos exigidos em unidades crescentes.   
-   
+Estão separados conforme a complexidade de conhecimenos exigidos em unidades crescentes.  
+
+---   
 
 #### Unidade I
+
 a) Algoritmo para calcular a area de um retangulo dados seus lados;   
    
 b) Algoritmo para calcular a media ponderada entre 3 valores e 3 pesos distintos;   
@@ -37,7 +39,8 @@ c) Algoritmo para calcular Bhaskara dado os valores de a, b e c
    
 d) Algoritmo para calcular a media simples entre 3 valores;   
    
-   
+---
+
 #### Unidade II   
 
 
@@ -118,6 +121,7 @@ r) O algoritmo deverá ler a altura, idade e o sexo de um número determinado de
 
 s) O algoritmo deve perguntar quantos números você deseja inserir, posteriormente ler cada um dos números e calcular a média aritmética simples deles.   
 
+---
 
 #### Unidade III   
    
@@ -142,6 +146,7 @@ ainda mais duas tentativas. Caso acerte, o jogo se encerra.
 - caso erre, o output deve conter o número de tentativas restantes e pedir que continue tentando
 - caso erre e se esgotem as tentativas, o output deve ser o número correto e "Game Over! Tenha mais sorte na próxima."   
    
+---
 
 #### Unidade IV   
    
