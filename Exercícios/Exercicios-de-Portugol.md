@@ -19,6 +19,7 @@
 13. variavél -> estrutura de dados simples (em portugol os tipos primitivos são apenas inteiro, real, caracter e lógico)
 14. Buble Sorting -> um algorítmo famoso de pesquisa em vetores e matrizes.
 15. Matriz -> estrutura de dados composta, homogênea e bidemensional
+16. Refactoring -> Refatoramento, recriação, ou reengenharia de código. São sinônimos.
    
 ---
    
