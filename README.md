@@ -4,7 +4,7 @@
 
 Este repositório foi pensado para conter uma coletânea de exercícios extraídos de 
 apostilas, livros e vídeos a fim de ajudar estudantes de computação a se acostumarem
-com o [portugol](https://pt.wikipedia.org/wiki/Portugol), através do VisualG 3.0.
+com o [portugol](https://pt.wikipedia.org/wiki/Portugol) (português estruturado), através do VisualG 3.0.
 
 [![VisuAlg 3.0](http://visualg3.com.br/wp-content/uploads/2017/04/cropped-logo-1.png)](http://visualg3.com.br/)
 
