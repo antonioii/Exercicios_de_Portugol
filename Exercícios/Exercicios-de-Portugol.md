@@ -25,7 +25,7 @@
    
 ## Exercícios   
 
-Estão separados conforme a complexidade de conhecimenos exigidos em unidades crescentes.  
+Estão separados em unidades conforme a complexidade dos conhecimentos exigidos.  
 
 ---   
 
@@ -45,16 +45,16 @@ d) Algoritmo para calcular a media simples entre 3 valores;
 #### Unidade II   
 
 
-a) Algoritmo que pergunta se está sol e caso afirmativo, diga que fulana vai à praia.   
+a) Algoritmo que pergunta se está sol e, caso afirmativo, diga que "fulana" vai à praia.   
 
 
-b) Algoritmo que dado um input de altura e sexo, diga se a pessoa está no peso ideal.
+b) Algoritmo que, dado um input de altura e sexo, diga se a pessoa está no peso ideal.
 - Os peso ideal é calculado da seguinte forme:
 	- Femino:  pesoIdeal = 62,1*altura -44,7
 	- Masculino:  pesoIdeal = 72,7*altura -58   
 	   
 
-c) Algoritmo em que dado tres valores, ele determina se são triângulos e caso sejam, diz de qual é.
+c) Algoritmo em que, dado tres valores, ele determina se são triângulos e caso sejam, diz de qual é.
 - Condição para triângulo: nenhum lado pode ser maior do que a soma dos outros dois
 - Existem três tipos de triângulo: isóceles, escaleno e equilatero.   
    
@@ -100,7 +100,7 @@ m) Calcular o fatorial de um dado numero inteiro.
    
 
 n) Elabore um algoritimo que receba dois números inteiros, verifique qual é
-o maior entre eles e calcula mostrando o somatorio dos impares que esteja
+o maior entre eles e calcula mostrando o somatorio dos impares que estejam
 no intervalo deles.
 - exemplo: input 3 e 8, entre 3 e 8 existem os números 4,5,6,7; os ímpares são 5 e 7, o somatório dos ímpares é 5+7= 12   
    
@@ -137,11 +137,11 @@ b) Criar um procedimento que calcule o fatorial de um dado numero N
 c) Refazer o **_k)_** da _Unidade II_, mas usando modularização.   
    
 
-d) Dado um número inteiro X, verifique se ele é maior que 1 e determina primalidade
+d) Dado um número inteiro X, o algoritmo verifica se ele é maior que 1 e determina primalidade
 - condição de primalidade: Um número deve ser primo, ou seja deve ser divisível apenas por ele mesmo e um.   
    
 
-e) Um jogo em que o algoritmo calcula um número aleatório entre 1 e 10, posteriormente pede que o usuario tente acertar e caso erre, tenha
+e) Um jogo em que o algoritmo calcula um número aleatório entre 1 e 10, posteriormente pede que o usuario tente acertar e, caso erre, tenha
 ainda mais duas tentativas. Caso acerte, o jogo se encerra.
 - caso acerte, o output deve conter mensagem de parabéns
 - caso erre, o output deve conter o número de tentativas restantes e pedir que continue tentando
