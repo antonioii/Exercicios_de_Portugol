@@ -53,21 +53,25 @@ b) Algoritmo que, dado um input de altura e sexo, diga se a pessoa está no peso
 	- Femino:  pesoIdeal = 62,1*altura -44,7
 	- Masculino:  pesoIdeal = 72,7*altura -58   
 	   
+
   
 c) Algoritmo em que, dado tres valores, ele determina se são triângulos e caso sejam, diz de qual é.
 - Condição para triângulo: nenhum lado pode ser maior do que a soma dos outros dois
 - Existem três tipos de triângulo: isóceles, escaleno e equilatero.   
    
+
    
    
 d) Algoritmo que recebe três inteiros e os escreve em ordem crescente.   
    
+
    
    
 
 e) Algoritmo que calcula o IMC e escreve a classificação da pessoa segundo ele.
 - https://bvsms.saude.gov.br/bvs/dicas/215_obesidade.html   
     
+
    
    
 
@@ -76,6 +80,7 @@ f) Refatorar o **_a)_** usando _switch_ para perguntar o clima e dizer se "fulan
 - _default_ deve ser: "Talvez esteja nevando? Dê um input correto."
 - o _default_ deve ser acionado apenas caso o input padrão não seja respeitado   
    
+
    
    
 
@@ -83,22 +88,26 @@ g) Dada a tabela abaixo, o algoritmo deve receber peso e idade de uma pessoa e d
 - Use _switch cases_ aninhados (i.é escolha-caso encadeados)
 - ![Tabela-1](./tabela-1.png)   
    
+
    
    
 
 h) Dados dois números inteiros como input, o programa calcula o maior menos o menor e devolve no output.   
    
+
    
    
 
 i) Lê três entradas e escreve qual é o maior.   
    
+
    
    
 
 j) Lê o dia da semana e escreve se é final de semana/folga.
 - Implementar com um breve menu a ser apresentado ao usuario com as opções.   
     
+
    
    
 
@@ -106,16 +115,19 @@ k) Um algoritmo que permita escolher através de um menu quais cálculos das dis
 - Para Matemática, calcular a área do quadrado e do retângulo, equação de primeiro e de segundo grau.
 - Para Física, calcular o volume do paralelepípedo e de um cilindro, calcular também a velocidade média.   
     
+
    
    
 
 l) Dado um numero inteiro, escreva sua tabuada.
 - Implemente usando o _while...do_   
     
+
    
    
 m) Calcular o fatorial de um dado numero inteiro.   
     
+
    
    
 
@@ -124,17 +136,20 @@ o maior entre eles e calcula mostrando o somatorio dos impares que estejam
 no intervalo deles.
 - exemplo: input 3 e 8, entre 3 e 8 existem os números 4,5,6,7; os ímpares são 5 e 7, o somatório dos ímpares é 5+7= 12   
     
+
    
    
 
 o) Dado um numero n, calcular o somatorio de 1 + 1/2 + 1/n
 - Implemente usando do...while   
     
+
    
    
 
 p) Refatorar o **_l)_** usando a estrutura de repetição _for_   
     
+
    
    
 
@@ -142,16 +157,19 @@ q) Dado um número que representa a posição na sequencia de fibonaci, diga o
 valor do número desta posição.
 - exemplo: a sequencia é 1,1,2,3,5... na posição três da sequência temos o valor 2   
     
+
    
    
 
 r) O algoritmo deverá ler a altura, idade e o sexo de um número determinado de pessoas. Ele devolverá no output a maior altura e a menor altura, a idade do mais velho e do mais novo, o total de pessoas por sexo e o total de pessoas.   
     
+
    
    
 
 s) O algoritmo deve perguntar quantos números você deseja inserir, posteriormente ler cada um dos números e calcular a média aritmética simples deles.   
    
+
    
    
 ---
@@ -162,22 +180,26 @@ a) Fazer uma calculadora, use módulos criando um menu atraves de
 _procedimentos_ ou _funções_ para cada tipo de operação matemática.
 - operações básicas: divisão, soma, subtração, multiplicação, expoente, resto e radiação.   
     
+
    
    
 
 b) Criar um procedimento que calcule o fatorial de um dado numero N   
     
+
    
    
 
 c) Refazer o **_k)_** da _Unidade II_, mas usando modularização.   
     
+
    
    
 
 d) Dado um número inteiro X, o algoritmo verifica se ele é maior que 1 e determina primalidade
 - condição de primalidade: Um número deve ser primo, ou seja deve ser divisível apenas por ele mesmo e um.   
     
+
    
    
 
@@ -187,6 +209,7 @@ ainda mais duas tentativas. Caso acerte, o jogo se encerra.
 - caso erre, o output deve conter o número de tentativas restantes e pedir que continue tentando
 - caso erre e se esgotem as tentativas, o output deve ser o número correto e "Game Over! Tenha mais sorte na próxima."   
     
+
    
    
 ---
@@ -196,6 +219,7 @@ ainda mais duas tentativas. Caso acerte, o jogo se encerra.
 a) Dado um numero X pelo usuário, gere a tabuada e a armazene em um vetor
 de 10 posições. Posteriormente, o programa deve escrever a tabuada.
     
+
    
    
 
@@ -208,12 +232,14 @@ vetor com 6 posições.
 - Ao final da tentativa, o programa deve informar quais os numeros
 sorteados aleatoriamente e verificar se o usuario acertou algum ou não.   
     
+
    
    
 
 c) O programa pede uma entrada de 5 números aleatorios e os devolve
 ordenados usando o método de Bubble sorting.   
    
+
    
 ---
    
@@ -229,7 +255,9 @@ d) Gerador de números de loteria (quina, megasena e lotofacil).
    
 e) Jogo simples de pedra, papel e tesoura com três tentativas.   
   
+
    
    
    
 ---
+   
