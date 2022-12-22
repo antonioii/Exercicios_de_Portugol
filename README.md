@@ -40,7 +40,7 @@ _Exemplo: **Unidade-I-a**_
 
 Caso seja uma solução diferente, ou um refatoramento do algorítimo, acrescente uma palavra-chave ao final para diferenciá-lo (pode ser seu nome, um número, ou termo qualquer).
 
-_Exemplo: **Unidade-I-a-2**_
+_Exemplo: **Unidade-I-a-2-autor-Fulano**_
 
 ---
 
