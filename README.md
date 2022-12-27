@@ -9,7 +9,7 @@ acrescidas de ideias da comunidade do GitHub.
 
 [![VisuAlg 3.0](http://visualg3.com.br/wp-content/uploads/2017/04/cropped-logo-1.png)](http://visualg3.com.br/)
 
-[Ref: Documentação Oficial](https://manual.visualg3.com.br/doku.php)
+[Ref: Documentação Oficial do VisualG3.0](https://manual.visualg3.com.br/doku.php)
 
 Além de se acostumar com a sintaxe, também é uma ótima maneira de treinar lógica de 
 programação.   
