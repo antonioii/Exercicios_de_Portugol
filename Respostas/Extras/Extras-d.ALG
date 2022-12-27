@@ -1,7 +1,8 @@
-Algoritmo "Gerador de numeros de loteria"
-// Descrição   : Aleatoriamente gera números de loteria
+Algoritmo "Gerador de numeros de loteria - v2.0"
+// DescriÃ§Ã£o   : Aleatoriamente gera nÃºmeros de loteria que nÃ£o se repetem
 // Autor(a)    : Antonio Sergio
 // Data atual  : 22/12/2022
+
 Var
    numero: inteiro
    i, j: inteiro
@@ -11,13 +12,28 @@ Var
 Inicio
       procedimento getMegaSena()
                    Var
-                      megasena: vetor [1..6] de inteiro
+                      megasena: vetor [1..60] de inteiro
+                      encontrado: logico
+                      numeroSort: inteiro
                    Inicio
-                         para i de 1 ate 6 passo 1 faça
-                              megasena[i] <- (randi(60)+1)
+                         para i de 1 ate 6 passo 1 faÃ§a
+                            numeroSort <- (randi(60)+1)
+                            repita
+                                  encontrado <- falso
+                                  para j de 1 ate i-1 passo 1 faÃ§a
+                                       se (numeroSort = megasena[j]) entao
+                                          encontrado <- verdadeiro
+                                       fimse
+                                  fimpara
+                                  se (encontrado) entao
+                                     numeroSort <- (randi(60)+1)
+                                  fimse
+                                  megasena[i] <- numeroSort
+                            atÃ© ((encontrado = falso) e (megasena[i] <> 0))
                          fimpara
-                         escreval("Os números sorteados foram: ")
-                         para i de 1 ate 6 passo 1 faça
+                         
+                         escreval("Os nÃºmeros sorteados foram: ")
+                         para i de 1 ate 6 passo 1 faÃ§a
                               escreva(megasena[i], " ")
                          fimpara
       fimprocedimento
@@ -25,12 +41,27 @@ Inicio
       procedimento getQuina()
                    Var
                       quina: vetor [1..5] de inteiro
+                      encontrado: logico
+                      numeroSort: inteiro
                    Inicio
-                         para i de 1 ate 5 passo 1 faça
-                              quina[i] <- (randi(60)+1)
+                         para i de 1 ate 5 passo 1 faÃ§a
+                            numeroSort <- (randi(60)+1)
+                            repita
+                                  encontrado <- falso
+                                  para j de 1 ate i-1 passo 1 faÃ§a
+                                       se (numeroSort = quina[j]) entao
+                                          encontrado <- verdadeiro
+                                       fimse
+                                  fimpara
+                                  se (encontrado) entao
+                                     numeroSort <- (randi(60)+1)
+                                  fimse
+                                  quina[i] <- numeroSort
+                            atÃ© ((encontrado = falso) e (quina[i] <> 0))
                          fimpara
-                         escreval("Os números sorteados foram: ")
-                         para i de 1 ate 5 passo 1 faça
+                         
+                         escreval("Os nÃºmeros sorteados foram: ")
+                         para i de 1 ate 5 passo 1 faÃ§a
                               escreva(quina[i], " ")
                          fimpara
       fimprocedimento
@@ -38,12 +69,27 @@ Inicio
       procedimento getLotoFacil()
                    Var
                       lotofacil: vetor [1..15] de inteiro
+                      encontrado: logico
+                      numeroSort: inteiro
                    Inicio
-                         para i de 1 ate 15 passo 1 faça
-                              lotofacil[i] <- (randi(60)+1)
+                         para i de 1 ate 15 passo 1 faÃ§a
+                            numeroSort <- (randi(60)+1)
+                            repita
+                                  encontrado <- falso
+                                  para j de 1 ate i-1 passo 1 faÃ§a
+                                       se (numeroSort = lotofacil[j]) entao
+                                          encontrado <- verdadeiro
+                                       fimse
+                                  fimpara
+                                  se (encontrado) entao
+                                     numeroSort <- (randi(60)+1)
+                                  fimse
+                                  lotofacil[i] <- numeroSort
+                            atÃ© ((encontrado = falso) e (lotofacil[i] <> 0))
                          fimpara
-                         escreval("Os números sorteados foram: ")
-                         para i de 1 ate 15 passo 1 faça
+                         
+                         escreval("Os nÃºmeros sorteados foram: ")
+                         para i de 1 ate 15 passo 1 faÃ§a
                               escreva(lotofacil[i], " ")
                          fimpara
       fimprocedimento
@@ -68,7 +114,7 @@ repita
               caso 3
               getLotoFacil()
               outrocaso
-              escreval("O valor digitado é invalido")
+              escreval("O valor digitado Ã© invalido")
       fimescolha
       
       escreval("")
