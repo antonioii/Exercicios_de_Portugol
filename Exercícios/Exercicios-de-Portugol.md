@@ -49,7 +49,7 @@ a) Algoritmo que pergunta se está sol e, caso afirmativo, diga que "fulana" vai
   
 
 b) Algoritmo que, dado um input de altura e sexo, diga se a pessoa está no peso ideal.
-- Os peso ideal é calculado da seguinte forme:
+- Os peso ideal é calculado da seguinte forma:
 	- Femino:  pesoIdeal = 62,1*altura -44,7
 	- Masculino:  pesoIdeal = 72,7*altura -58   
 	   
