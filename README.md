@@ -7,7 +7,7 @@ apostilas, livros e vídeos a fim de ajudar estudantes de computação a se acos
 com o [portugol](https://pt.wikipedia.org/wiki/Portugol) (português estruturado), através do VisualG 3.0. Inicialmente, as resoluções são de [minha autoria](https://github.com/antonioii/), mas são resoluções abertas sem direitos autorais a serem atualizadas e
 acrescidas de ideias da comunidade do GitHub.
 
-[![VisuAlg 3.0](https://visualg3.com.br/wp-content/uploads/2017/04/cropped-logo-1.png)](http://visualg3.com.br/)
+[![VisuAlg 3.0](https://raw.githubusercontent.com/antonioii/Exercicios_de_Portugol/main/cropped-logo-1.png)](http://visualg3.com.br/)
 
 [Ref: Documentação Oficial do VisualG3.0](https://manual.visualg3.com.br/doku.php)
 
